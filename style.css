@@ -43,7 +43,6 @@ body{
     background: orange;
     border: none;
     border-radius: 5px;
-    transition: 1s all;
     cursor: pointer ;
     margin-left: 300px;
 }

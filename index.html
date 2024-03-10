@@ -10,22 +10,23 @@
         <img  id="banner" src="imagenes/encriptar.jpg" alt="">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
-        <script src="funtions.js"></script>
+        <script src="logica.js"></script>
     </header>
     <form >
         <div>
             <label class="info" for="encriptar">Ingrese el texto que desea encriptar</label>
             <textarea cols="70" rows="10" id="encriptar" class="input-padron"></textarea>
-            <button class="button" onclick="encriptar()">Encriptar</button>
-            <textarea cols="70" rows="10" id="encriptado" class="input-padron"></textarea>
-        </div>
-        <div>
-            <label class="info" for="desencriptar">Ingrese el texto que desea desencriptar</label>
-            <textarea cols="70" rows="10" id="desencriptar" class="input-padron"></textarea>
-            <input type="submit" class="button" value="Desencriptar">
-            <textarea cols="70" rows="10" id="desencriptado" class="input-padron"></textarea>
         </div>
     </form>
-
+    <div>
+        <button onclick="encriptar();" class="button">Encriptar</button>
+    </div>
+    <form>
+        <label class="info" for="desencriptar">Texto que desea desencriptar</label>
+        <textarea cols="70" rows="10" id="desencriptar" class="input-padron"></textarea>
+    </form>
+     <div>
+         <button onclick="desencriptar();" class="button">Desencriptar</button>
+     </div>
 </body>
 </html>
